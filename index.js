@@ -1,8 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = "NzE4ODUwMzYxMTIwNTIyMzUy.XtvIUQ.DYaALTdMAbE1V8RgGC5vsrbCMcg";
-
-client.login(token);
 
 client.on("message", (message) => {
   if (message.content.toLowerCase() === "kyrell")
