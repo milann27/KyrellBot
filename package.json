@@ -1,25 +1,25 @@
 {
-  "name": "KyrellBot",
+  "name": "kyrellbot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/src/index.js/"
+    "start" : "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/milann27/KyrellBot.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/milann27/KyrellBot/issues"
   },
-  "homepage": "https://github.com/milann27/KyrellBot#readme",
-  "dependencies": {
-    "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0"
-  }
+  "homepage": "https://github.com/milann27/KyrellBot#readme"
 }
